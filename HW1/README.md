@@ -34,7 +34,7 @@
 
 # Neural Network Model
 
-这部分我做了简单的修改，以便于后续调参
+修改网络设置，方便调参
 
 ```python
 class My_Model(nn.Module):
