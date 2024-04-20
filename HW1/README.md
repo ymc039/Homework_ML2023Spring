@@ -32,25 +32,25 @@
 
       - **tested_positive (this is what we want to predict)** 单位为百分比，指有多少比例的人  
 
-# Neural Network Model
+# Baseline
 
-修改网络设置，方便调参
+- Simple Baseline (1.96993)
+	- 运行所给的 sample code。
+- Medium Baseline (1.15678)
+	- 特征选择，简单手动的选择你认为关联性较大的特征。
+- Strong Baseline (0.92619)
+	- 尝试不同的优化器（如：Adam）。
+	- 应用 L2 正则化（SGD/Adam ... 优化器参数中的 weight_decay)
+- Boss Baseline (0.81456)
+	- 尝试更好的特征选择，可以使用 sklearn.feature_selection.SelectKBest。
+	- 尝试不同的模型架构（调整 my_module.layers）
+	- 调整其他超参数
 
-```python
-class My_Model(nn.Module):
-    def __init__(self, input_dim):
-        super(My_Model, self).__init__()
-        # TODO: modify model's structure in hyper-parameter: 'config', be aware of dimensions.
-        self.layers = nn.Sequential(
-            nn.Linear(input_dim, config['layer'][0]),
-            nn.ReLU(),
-            nn.Linear(config['layer'][0], config['layer'][1]),
-            nn.ReLU(),
-            nn.Linear(config['layer'][1], 1)
-        )
+# 结果
 
-    def forward(self, x):
-        x = self.layers(x)
-        x = x.squeeze(1) # (B, 1) -> (B)
-        return x
-```
+sample(2.00579/1.89852)
+remove_states(0.91898/0.88883)
+remove_states+weight_decay(0.91905/0.88879)
+remove_states+weight_decay+10000epochs(0.91323/0.88164)
+8feats(0.92196/0.89200)
+resNN*3(0.95993/0.91598)
