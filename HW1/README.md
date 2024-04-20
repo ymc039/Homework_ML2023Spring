@@ -48,9 +48,9 @@
 
 # 结果
 
-sample(2.00579/1.89852)
-remove_states(0.91898/0.88883)
-remove_states+weight_decay(0.91905/0.88879)
-remove_states+weight_decay+10000epochs(0.91323/0.88164)
-8feats(0.92196/0.89200)
-resNN*3(0.95993/0.91598)
+- sample(2.00579/1.89852)
+- remove_states(0.91898/0.88883)
+- remove_states+weight_decay(0.91905/0.88879)
+- remove_states+weight_decay+10000epochs(0.91323/0.88164)
+- 8feats(0.92196/0.89200)
+- resNN*3(0.95993/0.91598)
