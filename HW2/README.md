@@ -1,3 +1,9 @@
+# Muticlass Classification
+
+Train：3429个带标签的语音特征
+Test：857个无标签的语音特征
+一共十一类
+
 # Baselines
 
 - Simple(0.49798): sample code
@@ -5,7 +11,7 @@
 - Strong(0.74977): batchnorm, dropout
 - Boss(0.83017): sequence-labeling(RNN)
 
-# Submissions
+# Results
 
 - Sample code(0.49714/0.49739)
 - Medium: concat=15/layers=6/dim=512(0.68314/0.68340)
