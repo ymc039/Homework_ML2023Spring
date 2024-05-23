@@ -32,7 +32,7 @@ self.doc_stride = 32
 
 ```python
 from transformers import get_linear_schedule_with_warmup
-scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=100, 	num_training_steps=total_steps)
+scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=100, num_training_steps=total_steps)
 ···
 optimizer.zero_grad()
 scheduler.step()
