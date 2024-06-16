@@ -66,7 +66,7 @@ self.encoder_layer = conformer.Conformer(
 
 ## Boss(0.96100)
 
-PDF对Boss的提示是Self-Attention Pooling和Additive Margin Softmax，但我没做这两个。有人提到将``pred_layer``改为单层网络可以大大提升模型效果，而结果也证实了这一点。
+PDF对Boss的提示是Self-Attention Pooling和Additive Margin Softmax，但我没做这两个。[有人](https://github.com/Hoper-J/HUNG-YI_LEE_Machine-Learning_Homework/tree/master/HW04)提到将``pred_layer``改为单层网络可以大大提升模型效果，而结果也证实了这一点。
 
 ```python
 # Project the the dimension of features from d_model into speaker nums.
