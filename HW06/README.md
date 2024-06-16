@@ -10,13 +10,12 @@ Test: generate 1000 pics
 
 | Name   | FID        | AFD      |
 | ------ | ---------- | -------- |
-| Simple | $\le$30000 | $\ge$0   |
-| Medium | $\le$12000 | $\ge$0.4 |
-| Strong | $\le$10000 | $\ge$0.5 |
-| Boss   | $\le$9000  | $\ge$0.6 |
+| Simple | &lt;=30000 | &gt;=0   |
+| Medium | &lt;=12000 | &gt;=0.4 |
+| Strong | &lt;=10000 | &gt;=0.5 |
+| Boss   | &lt;=9000  | &gt;=0.6 |
 
 # Results
-
 ## Simple
 
 只能说不太拟人
