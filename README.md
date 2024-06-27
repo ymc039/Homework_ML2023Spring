@@ -10,7 +10,7 @@
 | ✅          | HW 8                               | Auto-encoder           |             异常检测           |
 | ✅          | HW 9                               | Explainable AI         |       CNN＆BERT                 |
 | ✅          | HW 10                              | Attack                 |         黑盒攻击               |
-|           | HW 11                              | Adaptation             |                        |
+|           | HW 11                              | Adaptation             |   领域自适应                     |
 |           | HW 12                              | Reinforcement Learning |                        |
 |           | HW 13                              | Network Compression    |                        |
 |           | HW 14                              | Life-long Learning     |                        |
