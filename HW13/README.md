@@ -78,7 +78,7 @@ def dwpw_conv(ic, oc, kernel_size=3, stride=2, padding=1):
 
 由此修改student模型结构
 
-另外，训练中损失函数要逐层与teacher模型对齐，有点类似深度监督的感觉
+另外，训练中损失函数要逐层与teacher模型对齐（具体见ipynb文件），有点类似深度监督的感觉
 
 config如下
 
