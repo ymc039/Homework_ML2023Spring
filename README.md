@@ -12,6 +12,6 @@
 | ✅          | HW 10                              | Attack                 |         黑盒攻击               |
 | ✅          | HW 11                              | Adaptation             |   领域自适应                     |
 | ⚪          | HW 12                              | Reinforcement Learning |  登陆月球（跳过）                      |
-| ⚪          | HW 13                              | Network Compression    |                        |
+| ✅          | HW 13                              | Network Compression    |  知识蒸馏                      |
 | ⚪          | HW 14                              | Life-long Learning     |                        |
 | ⚪          | HW 15                              | Meta Learning          |                        |
