@@ -15,4 +15,5 @@
 | ✅          | HW 13                              | Network Compression    |  知识蒸馏                      | Boss(0.82687)    |
 | ✅          | HW 14                              | Life-long Learning     |   选择性突触可塑性                     | N/A    |
 | ✅          | HW 15                              | Meta Learning          |   小样本学习                     | Boss(0.95395)    |
-<!-- 带星号的分数为public的分数 -->
+
+带星号的分数为public的分数
