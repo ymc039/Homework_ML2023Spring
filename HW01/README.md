@@ -49,3 +49,4 @@
 - remove_states+weight_decay+10000epochs(0.91323/0.88164)
 - 8feats(0.92196/0.89200)
 - resNN*3(0.95993/0.91598)
+- Boss(0.83879/0.80781)
