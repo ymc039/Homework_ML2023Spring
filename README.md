@@ -1,6 +1,6 @@
 | Completed | #                                  | Topic                  | Task                   | Score |
 | --------- | ---------------------------------- | ---------------------- | ---------------------- | ----- |
-| ✅         | HW 1     | Regression             | 新冠患病预测 | Strong(0.91323)    |
+| ✅         | HW 1     | Regression             | 新冠患病预测 | Boss(0.80781*)    |
 | ✅         | HW 2 | Classification         | Phoneme 分类           | Strong(0.74901)    |
 | ✅         | HW 3         | CNN                    | 食物分类               | Strong(0.82133)    |
 | ✅         | HW 4 | Self-Attention         | 语者识别           | Boss(0.96100)    |
@@ -15,3 +15,4 @@
 | ✅          | HW 13                              | Network Compression    |  知识蒸馏                      | Boss(0.82687)    |
 | ✅          | HW 14                              | Life-long Learning     |   选择性突触可塑性                     | N/A    |
 | ✅          | HW 15                              | Meta Learning          |   小样本学习                     | Boss(0.95395)    |
+<!-- 带星号的分数为public的分数 -->
